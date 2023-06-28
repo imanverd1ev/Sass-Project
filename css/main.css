@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Noto+Serif:wght@100&family=Nunito+Sans:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@100&family=Roboto:wght@100&family=Tilt+Warp&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif; }
+
+.header {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 40%;
+  padding-bottom: 92px;
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg); }
+  .header .navbar {
+    width: 100%;
+    padding: 20px 0px; }
+    .header .navbar .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px; }
+      .header .navbar .container a {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        margin-right: 30px;
+        font-weight: 900; }
+      .header .navbar .container ul {
+        display: flex;
+        gap: 20px;
+        list-style-type: none; }
+      .header .navbar .container i {
+        display: none; }
+  .header .header-content {
+    width: 47%;
+    margin: 100px auto; }
+    .header .header-content h1 {
+      font-size: 58px;
+      color: white;
+      padding-left: 10px;
+      line-height: 1.2; }
+    .header .header-content hr {
+      height: 0.2rem;
+      max-width: 3.85rem;
+      margin: 1.5rem auto;
+      border: none;
+      background-color: #f16d49;
+      border-top: 1px solid black; }
+    .header .header-content p {
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      font-size: 19px;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.75) !important; }
+    .header .header-content a {
+      width: 25%;
+      text-decoration: none;
+      background-color: #e34b21;
+      border-radius: 40px;
+      font-size: 13px;
+      font-weight: 600;
+      color: white;
+      display: block;
+      text-transform: uppercase;
+      margin: 20px auto;
+      text-align: center;
+      padding: 17px 0px;
+      transition: 300ms all ease; }
+      .header .header-content a:hover {
+        background-color: #af3716; }
+
+.site-about {
+  width: 100%;
+  padding: 50px 0px;
+  background-color: #f0572d; }
+  .site-about .about-content {
+    width: 50%;
+    margin: auto;
+    padding: 30px 0px;
+    text-align: center; }
+    .site-about .about-content h1 {
+      font-size: 30px;
+      font-weight: 900;
+      margin-top: 80px; }
+    .site-about .about-content hr {
+      height: 0.2rem;
+      max-width: 3.85rem;
+      margin: 1.5rem auto;
+      border: none;
+      background-color: white;
+      border-top: 1px solid black; }
+    .site-about .about-content p {
+      color: rgba(255, 255, 255, 0.75) !important;
+      font-size: 16px;
+      font-weight: 600; }
+    .site-about .about-content a {
+      width: 25%;
+      text-decoration: none;
+      background-color: white;
+      border-radius: 40px;
+      font-size: 13px;
+      font-weight: 600;
+      color: black;
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      padding: 17px 0px;
+      transition: 300ms all ease;
+      font-size: 17px;
+      font-weight: 800; }
+      .site-about .about-content a:hover {
+        background-color: #e0e0e0; }
+
+.site-service {
+  width: 100%;
+  text-align: center;
+  padding: 60px 0px; }
+  .site-service .service-header {
+    width: 50%;
+    margin: auto; }
+    .site-service .service-header hr {
+      height: 0.2rem;
+      max-width: 3.85rem;
+      margin: 1.5rem auto;
+      border: none;
+      background-color: #f16d49;
+      border-top: 1px solid black; }
+    .site-service .service-header h1 {
+      font-weight: 900; }
+  .site-service .service-content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around; }
+    .site-service .service-content .service-item {
+      margin-top: 50px; }
+      .site-service .service-content .service-item i {
+        font-size: 40px;
+        color: #e34b21;
+        margin-bottom: 20px; }
+      .site-service .service-content .service-item h2 {
+        margin: 10px;
+        font-weight: 800; }
+      .site-service .service-content .service-item p {
+        font-size: 19px;
+        font-weight: 500;
+        margin-top: 20px;
+        color: #818181; }
+
+.site-portfolio .container-fluid .row .col-xl-4 {
+  width: 33.3%;
+  position: relative;
+  cursor: pointer; }
+  .site-portfolio .container-fluid .row .col-xl-4 img {
+    width: 100%; }
+  .site-portfolio .container-fluid .row .col-xl-4 .hover-image {
+    display: none; }
+    .site-portfolio .container-fluid .row .col-xl-4 .hover-image .hover-image-content {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      color: white !important;
+      padding-top: 80px; }
+  .site-portfolio .container-fluid .row .col-xl-4:hover .hover-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 30;
+    top: 0px;
+    left: 0px;
+    background-color: #af3716;
+    opacity: 0.8;
+    display: block; }
+
+.site-portfolio .container-fluid .row > * {
+  padding-left: 0px !important;
+  padding-right: 0px !important; }
+
+.site-contact {
+  width: 100%;
+  background-color: white;
+  padding: 100px 0px; }
+  .site-contact .container .contact-header {
+    width: 100%;
+    margin: 80px auto;
+    text-align: center; }
+    .site-contact .container .contact-header hr {
+      height: 0.2rem;
+      max-width: 3.85rem;
+      margin: 1.5rem auto;
+      border: none;
+      background-color: #ff4512;
+      border-top: 1px solid black; }
+    .site-contact .container .contact-header h1 {
+      font-weight: 900; }
+    .site-contact .container .contact-header p {
+      color: #948d8d;
+      margin-top: 30px;
+      font-weight: 600; }
+  .site-contact .container .contact-content {
+    width: 60%;
+    text-align: center;
+    margin: auto; }
+    .site-contact .container .contact-content button {
+      width: 80%;
+      height: 60px;
+      margin-top: 40px;
+      border-radius: 5px;
+      color: black;
+      font-weight: 700;
+      background-color: #ef8061;
+      border-radius: 40px;
+      color: white;
+      border: none; }
+    .site-contact .container .contact-content .h-100 {
+      height: 150px !important; }
+    .site-contact .container .contact-content .h-100:focus::placeholder {
+      position: absolute;
+      top: 10%; }
+    .site-contact .container .contact-content input {
+      width: 80%;
+      height: 60px;
+      border: 1px solid gray;
+      margin-top: 40px;
+      border-radius: 5px;
+      padding-left: 10px; }
+      .site-contact .container .contact-content input::placeholder {
+        color: black;
+        font-weight: 700;
+        font-size: 18px; }
+      .site-contact .container .contact-content input:focus {
+        outline: none;
+        box-shadow: 0px 0px 5px;
+        padding-bottom: 20px;
+        font-size: 12px; }
+      .site-contact .container .contact-content input:focus::placeholder {
+        font-size: 13px;
+        color: gray; }
+
+.site-footer {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: #ece6e6;
+  padding-top: 35px; }
+  .site-footer p {
+    color: #818181;
+    font-size: 16px;
+    font-weight: 800; }
+
+@media (max-width: 768px) {
+  .header .navbar ul {
+    display: none !important; }
+  .header .navbar i {
+    display: block !important;
+    font-size: 25px;
+    color: white; }
+    .header .navbar i:active {
+      box-shadow: 0px 0px 2222222px gray !important; }
+  .header .header-content a {
+    width: 70% !important; } }
+
+@media (max-width: 868px) {
+  .header .header-content a {
+    width: 60% !important; }
+  .hover-image-content {
+    padding: 30px !important; }
+    .hover-image-content h2, .hover-image-content h3 {
+      font-size: 14px;
+      margin: 0px !important; }
+  .site-about {
+    padding: 40px 0px !important; }
+    .site-about a {
+      width: 70% !important; }
+  .site-contact .contact-content {
+    width: 100% !important; } }
